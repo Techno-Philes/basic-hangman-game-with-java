@@ -1,5 +1,3 @@
-package hangman;
-
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -84,7 +82,7 @@ default: wrongcount.setA(++k);wrongcount.repaint();
 }
 if(k == 7){
 frame.getContentPane().removeAll();
-ImageIcon gameover = new ImageIcon("C:\\Users\\user\\Pictures\\game over.jpg");
+ImageIcon gameover = new ImageIcon("path for game over.jpg");
 JLabel no = new JLabel("GAME OVER :(", gameover, JLabel.CENTER);
 frame.getContentPane().add(no);
 frame.getContentPane().add(wrongcount);
@@ -93,7 +91,7 @@ frame.repaint();
 }
 if(S.getText() == "S" && M.getText() == "M" && I.getText() == "I" && L.getText() == "L" && E.getText() == "E"){
 frame.getContentPane().removeAll();
-ImageIcon smilee = new ImageIcon("C:\\Users\\user\\Pictures\\smile.jpg");
+ImageIcon smilee = new ImageIcon("path for smile.jpg");
 JLabel yes = new JLabel("yes! it is smile!", smilee, JLabel.CENTER);
 frame.getContentPane().add(yes);
 frame.pack();
