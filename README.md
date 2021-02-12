@@ -13,4 +13,4 @@ Building this gave me a very good understanding of the basic gui concepts. Hope 
 Have fun with the game and building it!
 
 
-Any suggestions, comments and improvements are welcome.
+Any suggestions and improvements are welcome.
